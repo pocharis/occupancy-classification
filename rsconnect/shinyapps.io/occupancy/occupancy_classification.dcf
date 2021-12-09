@@ -1,0 +1,11 @@
+name: occupancy_classification
+title:
+username:
+account: occupancy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5298466
+bundleId: 5350346
+url: https://occupancy.shinyapps.io/occupancy_classification/
+when: 1639056131.79853
+lastSyncTime: 1639056131.79853
