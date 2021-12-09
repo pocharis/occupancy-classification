@@ -9,7 +9,7 @@ df <- read.csv("occupancy.csv", header = TRUE)
 ui <- fluidPage(
   theme = shinytheme("cerulean"),
   navbarPage(
-    # theme = "cerulean",  # <--- To use a theme, uncomment this
+    # theme = "cerulean",  # <--- To use a theme,
     "Building Occupancy Detection",
     tabPanel(
       "Occupancy Prediction",
