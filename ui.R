@@ -1,4 +1,5 @@
 library(shiny)
+library(shinythemes)
 # Read the dataset set
 df <- read.csv("occupancy.csv", header = TRUE)
 
