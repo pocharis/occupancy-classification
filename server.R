@@ -1,5 +1,4 @@
 library(data.table)
-library(randomForest)
 library(ggcorrplot)
 
 # Read in the knn model
