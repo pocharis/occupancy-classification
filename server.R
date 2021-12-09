@@ -183,4 +183,10 @@ shinyServer(function(input, output, session) {
     paste("keep alive ", input$count)
   })
   
+  autoInvalidate <- reactiveTimer(10000)
+  observe({
+    autoInvalidate()
+    cat(".")
+  })
+  
 })
